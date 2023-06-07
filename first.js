@@ -254,3 +254,38 @@ function reverseString(x) {
     console.log(myReverseString);
 }
 */
+
+// 22 დავალება
+/*
+let myArr = [3, 5, 1, 4];
+
+console.log(arraySum(myArr));
+
+function arraySum(x) {
+  let container = 0;
+  for(let i = 0; i < x.length; i++) {
+    let arrItem = x[i];
+    container += arrItem;
+  }
+  return container
+}
+*/
+
+// 23 დავალება
+/*
+let myArr = [3, 5, 1, 4, 7];
+
+console.log(arrayAvg(myArr));
+
+function arrayAvg(x) {
+  let container = 0;
+  for(let i = 0; i < x.length; i++) {
+    let arrItem = x[i];
+    container += arrItem;
+  }
+let avgNum = container / x.length;
+
+return avgNum;
+}
+*/
+
