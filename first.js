@@ -209,3 +209,48 @@ function checkSubstring (a, b) {
 }
 */
 
+// 19 დავალება
+/*
+for (let i = 1; i < 11; i++){
+  console.log(i);
+} 
+*/
+
+// 20 დავალება
+/*
+let myNum = 4;
+
+checkIfPrime(myNum);
+
+function checkIfPrime(x) {
+let counter = 0;
+for (let i = 2; i < Math.sqrt(x); i++){
+  if(x % i == 0) {
+    counter++;
+  }
+}
+if(counter > 0 || x == 4) {
+    console.log("Number is not prime");
+} else {
+    console.log("Number is prime");
+}
+}
+
+*/
+
+// 21 დავალება
+/* 
+let myString = "Hello!";
+
+reverseString(myString);
+
+function reverseString(x) {
+    let myReverseString = "";
+    let stringContainer;
+    for(i = x.length - 1; i >= 0; i--){
+        stringContainer = x.charAt(i);
+        myReverseString += stringContainer;
+    }
+    console.log(myReverseString);
+}
+*/
