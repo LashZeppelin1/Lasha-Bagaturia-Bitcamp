@@ -78,3 +78,21 @@ function arrayMin(arr){
 }
 
 */
+
+
+// 28 დავალება
+/*
+let myArr = [3, 1, 6, 13, 5, 1, 25, 8, 19]
+
+
+arrayCheck(myArr);
+
+function arrayCheck(arr) {
+    let arrElement = 1;
+    if(arr.includes(arrElement)) {
+        console.log("Includes");
+    } else{
+        console.log("Does not include");
+    }
+}
+*/
