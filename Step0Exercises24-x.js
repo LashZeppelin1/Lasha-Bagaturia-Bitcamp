@@ -145,6 +145,8 @@ function countChars(str){
       
       if(chars < words[wordLen].length) {
         chars = words[wordLen].length;
+      }  else {
+          chars = words[0].length;
       }
       }
       return chars
