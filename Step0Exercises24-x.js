@@ -108,3 +108,23 @@ myArr.splice(removeElemmentIndex, 1);
 
 console.log(myArr);
 */
+
+
+// 30 დავალება
+/* 
+let myArr = [5, 3, 67, 3, 85, 3, 2, 65, 2, 66, 55, 1, 43, 2, 3];
+
+let occElement = 1;
+
+console.log(numOccurences(myArr, occElement));
+
+function numOccurences(arr, occurence){
+  let counter = 0;
+  for(let i = 0; i < arr.length; i++){
+    if(arr[i] == occurence){
+      counter++;
+    }
+  }
+  return counter;
+}
+*/
