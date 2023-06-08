@@ -96,3 +96,15 @@ function arrayCheck(arr) {
     }
 }
 */
+
+
+// 29 დავალება
+/* 
+let myArr = [5, 3, 67, 3];
+
+let removeElemmentIndex = 0;
+
+myArr.splice(removeElemmentIndex, 1);
+
+console.log(myArr);
+*/
