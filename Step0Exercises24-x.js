@@ -42,3 +42,20 @@ function arraySort(arr){
    return arr
 }
 */
+
+// 26 დავალება
+/*
+let myArr = [3, 1, 6, 21, 71, 5, 1, 2, 8, 2, 19, 25, 69]
+
+console.log(arrayMax(myArr));
+
+function arrayMax(arr){
+  let container = arr[0];
+  for(let i = 0; i < arr.length; i++){
+    if(container < arr[i + 1]){
+        container = arr[i + 1];
+      }
+  }
+  return container
+}
+*/
