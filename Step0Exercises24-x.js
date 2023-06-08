@@ -128,3 +128,27 @@ function numOccurences(arr, occurence){
   return counter;
 }
 */
+
+// 31 დავალება
+/*
+let myString = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada imperdiet. Quisque.";
+
+console.log(countChars(myString));
+
+function countChars(str){
+  let chars = 0;
+  let words = str.split(" ");
+  
+  
+  for(let i = 0; i < words.length - 1; i++){
+      let wordLen = i + 1;
+      
+      if(chars < words[wordLen].length) {
+        chars = words[wordLen].length;
+      }
+      }
+      return chars
+  }
+
+*/
+
