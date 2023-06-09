@@ -177,3 +177,28 @@ function reverseString(str) {
 }
 */
 
+// 33 დავალება
+/* 
+let myString = "Civic iasd das. dasgrasdasdasdasasdas. reggergerger asdasdasasdas. asdasc hrthrthrt hsdaf.";
+
+console.log(splitString(myString));
+
+
+function splitString(str){
+  let myArr = str.split(" ");
+  let firstChar = ("");
+  let sentence = ("");
+  for(let i = 0; i < myArr.length; i++){
+    let backToStr = myArr[i].toString();
+    let capitalize = backToStr.charAt(0).toUpperCase();
+    firstChar = capitalize + backToStr.slice(1);
+    sentence += firstChar + " ";
+  }
+   let finalSentence = sentence.slice(0, sentence.length - 1);
+   let arrTwo = finalSentence.split(" ");
+   let result = arrTwo.join(" ");
+   return result
+  }
+  
+*/
+
