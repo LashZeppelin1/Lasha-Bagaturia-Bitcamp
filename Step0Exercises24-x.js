@@ -154,3 +154,26 @@ function countChars(str){
 
 */
 
+
+// 32 დავალება
+/*
+let myString = "Civic";
+
+reverseString(myString);
+
+function reverseString(str) {
+    let convertToLower = str.toLowerCase();
+    let myReverseString = "";
+    let stringContainer;
+    for(i = convertToLower.length - 1; i >= 0; i--){
+        stringContainer = convertToLower.charAt(i);
+        myReverseString += stringContainer;
+    }
+    if(myReverseString == convertToLower) {
+      console.log("The string is palindrome");
+    } else{
+      console.log("The string is not a palindrome");
+    }
+}
+*/
+
