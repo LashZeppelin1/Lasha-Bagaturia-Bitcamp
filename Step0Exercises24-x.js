@@ -202,3 +202,20 @@ function splitString(str){
   
 */
 
+// 34 დავალება
+/*
+let myArr = [1, 6, 4, 13, 7, 2, 18, 17, 12];
+
+console.log(sumEvens(myArr));
+
+function sumEvens(arr){
+  let sum = 0;
+  for(i = 0; i < arr.length; i++){
+    if(arr[i] % 2 == 0) {
+      sum += arr[i];
+    }
+  }
+  return sum
+}
+*/
+
