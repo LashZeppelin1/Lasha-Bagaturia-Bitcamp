@@ -236,3 +236,28 @@ function reverseSentence(str){
 }
 */
 
+// 36 დავალება
+/*
+let numArr = [3, 1, 6, 2, 123, 66, 89, 4, 90, 120, 100];
+
+console.log(secondLargest(numArr));
+
+function secondLargest(arr){
+  let myNum;
+  for(let i = 1; i < arr.length; i++){
+    let currentValue = arr[i];
+    let j;
+    for(j = i - 1; j >= 0 && arr[j] > currentValue; j--){
+      arr[j + 1] = arr[j];
+    }
+    arr[j + 1] = currentValue;
+  }
+  for(let k = arr.length - 1; k >= 0; k--) {
+    if(arr[k] < arr[k + 1]){
+      myNum = arr[k];
+      break;
+    }
+  }
+  return myNum;
+} 
+*/
