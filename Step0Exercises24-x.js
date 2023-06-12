@@ -261,3 +261,39 @@ function secondLargest(arr){
   return myNum;
 } 
 */
+
+// 37 დავალება
+/*
+let firstArr = [3, 1, 6, 2, 123, 66, 89, 4, 90, 120];
+
+let secondArr = [3, 1, 6, 2, 123, 66];
+
+console.log(checkIfEqual(firstArr, secondArr));
+
+function checkIfEqual(arr1, arr2) {
+  let bool;
+  
+  if(arr1.length >= arr2.length) {
+    for(let i = 0; i < arr1.length; i++) {
+      if(arr1[i] != arr2[i]){
+        bool = false;
+        break;
+      } else {
+        bool = true;
+      }
+    }
+  } else {
+    for(let j = 0; j < arr2.length; j++) {
+      if(arr1[j] != arr2[j]){
+        bool = false;
+        break;
+      } else {
+        bool = true;
+      }
+    }
+  }
+  return bool;
+}
+
+*/
+
