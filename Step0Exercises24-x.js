@@ -219,3 +219,20 @@ function sumEvens(arr){
 }
 */
 
+// 35 დავალება
+/*
+let myString = "Lorem ipsum dolor sit amet";
+
+reverseSentence(myString);
+
+function reverseSentence(str){
+  let myArr = str.split(" ");
+  let container = [];
+  for(let i = myArr.length - 1; i >= 0; i--){
+    container.push(myArr[i]);
+  }
+  let reversedStr = container.join(" ");
+  console.log(reversedStr);
+}
+*/
+
