@@ -297,3 +297,21 @@ function checkIfEqual(arr1, arr2) {
 
 */
 
+// 38 დავალება
+/*
+ let myArr = [3, 90, 7, 2, 9, 22, 56, 9 , 27];
+let occurence = 9;
+
+console.log(firstOccurence(myArr, occurence));
+
+function firstOccurence(arr, element) {
+    let position;
+    for(let i = 0; i < arr.length; i++) {
+        if(myArr[i] === element) {
+            position = i;
+            break;
+        }
+    }
+    return position
+}
+*/
