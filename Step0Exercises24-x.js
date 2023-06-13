@@ -315,3 +315,20 @@ function firstOccurence(arr, element) {
     return position
 }
 */
+
+// 39 დავალება
+/*
+let myArr = [1, 3, "", "string", null, NaN, "string 2", false, 4242, 0, 12312];
+
+console.log(removeFalsyValues(myArr));
+
+function removeFalsyValues(arr){
+    let container = [];
+    for(let i = 0; i < arr.length; i++){
+      if(arr[i] != 0 && arr[i] != null && arr[i] != "" && arr[i] != false && arr[i] != undefined && (!isNaN(arr[i]) || typeof arr[i] == "string")) {
+        container.push(arr[i]);
+      }
+    }
+    return container
+}
+*/
