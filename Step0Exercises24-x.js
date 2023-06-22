@@ -332,3 +332,31 @@ function removeFalsyValues(arr){
     return container
 }
 */
+
+// 40 დავალება
+/*
+let myArr = [[1, 2, 3], [1, 3, 4, [13, 5, 85]], [4, 5, 6]];
+
+console.log(maxNumber(myArr));
+
+function maxNumber(arr) {
+  let numbersStr = arr.join();
+  let numArr = numbersStr.split(",");
+  let newArr = [];
+  let num = 0;
+
+  for(let i = 0; i < numArr.length; i++) {
+    if(numArr){
+
+      newArr.push(parseInt(numArr[i]));
+    }
+  }
+
+  for (let j = 0; j < newArr.length; j++) {
+    if(num < newArr[j]){
+      num = newArr[j];
+    }
+  }
+  return num
+}
+*/
