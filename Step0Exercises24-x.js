@@ -360,3 +360,12 @@ function maxNumber(arr) {
   return num
 }
 */
+
+// 42 დავალება
+/*
+
+let myArr = [3, 7, 123, 4, 3, 4, 12, 17, 3];
+
+console.log(myArr.lastIndexOf(3));
+*/
+
